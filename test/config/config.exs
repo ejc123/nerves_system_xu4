@@ -6,7 +6,7 @@ system = :nerves_system_rpi3
 platform = "rpi3"
 arch = "arm"
 
-app_part_devparth = "/dev/mmcblk0p3"
+app_part_devparth = "/dev/mmcblk1p3"
 network_interface = System.get_env("NERVES_NETWORK_INTERFACE") || "eth0"
 
 # Environment specific configuration
